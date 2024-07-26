@@ -9,14 +9,14 @@
 .navbar-nav {
     display: flex;
     justify-content: center; /* Center the nav items horizontally 
-    flex-grow: 1; /* Ensure that the navbar-nav takes available space 
+    flex-grow: 1; /* navbar-nav takes available space 
 }
 .navbar-toggler {
-    margin-left: auto; /* Align the toggler to the right 
+    margin-left: auto; 
 }
 .navbar-brand {
-    position: absolute; /* Remove the brand from the flow 
-    left: 50%; /* Center it horizontally */
+    position: absolute;  
+    left: 50%;
    /* transform: translateX(-50%); /* Adjust the position 
 }*/
 
@@ -77,8 +77,8 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10; /* Ensure the navbar is above the image */
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: Semi-transparent background */
+    z-index: 10; /*navbar is above the image */
+    background-color: rgba(255, 255, 255, 0.8); /* transparent background */
 }
  .navbar-nav {
     display: flex;
@@ -103,7 +103,7 @@
 
 } */
 /*.p1 {
-    position: relative;  Ensure the image container is positioned relatively */
+    position: relative;  
 /* } */
 .p1 {
     position: relative;
@@ -136,7 +136,7 @@
 } */
 
 /* .centered-text2 {
-    top: 60%; /* Adjusted to appear below the main text */
+    top: 60%; 
 /* }  */
 
 .content {
@@ -181,8 +181,8 @@
     top: 48%;
     left: 49%;
     transform: translate(-50%, -50%);
-    color: rgb(244, 14, 14); /* Change text color as needed */
-    font-size: 2.5rem; /* Adjust font size as needed */
+    color: rgb(244, 14, 14); 
+    font-size: 2.5rem; 
     font-weight:bolder;
     text-align: center;
    
@@ -193,12 +193,12 @@
     top: 57%;
     left: 48%;
     transform: translate(-50%, -50%);
-     color: black; /*Change text color as needed  */
-    font-size: 2rem; /* Adjust font size as needed */
+     color: black;
+    font-size: 2rem;
     font-weight:bolder;
     text-align: center;
     background-color: blue;
-    border-radius: 5px;
+    /* border-radius: 5px; */
    
 }
 .centered-text,
@@ -208,7 +208,20 @@
     text-align: center;
     justify-content: center;
 }
-
+.centered-text2 a{
+    background-color: #4070F4;
+    /* border-radius: 50px; */
+}
+.p1 a{
+    border-radius: 8px;
+    text-decoration: none;
+    transition: color 0.3s ;
+}
+.p1 a:hover{
+    background-color: #0b2c87;
+    text-decoration: underline;
+    opacity: 0.9;
+}
 .img2 img{
     height: 70vh;
     /* display: flex;
@@ -219,8 +232,8 @@
 .pa {
     /* border: 2px solid red; */
     max-width: 1200px;
-    max-height: 200px; /* Adjust the height as needed */
-    overflow:scroll;  /*Add scroll only if content overflows */
+    max-height: 200px; 
+    overflow:scroll;  
     /* overflow-x: auto; */
     text-align: left;
     
@@ -260,19 +273,19 @@
 }
 /* @media (max-width: 768px) { */
     /* .p1 img { */
-        /* height: 60vh; Adjust height for mobile screens */
+        /* height: 60vh; 
     /* } */
     /* .p1 .centered-text { */
-        /* font-size: 1.5rem; Adjust font size for mobile screens */
-       /* padding: 8px 16px;  Adjust padding for mobile screens */
+        /* font-size: 1.5rem;/
+       /* padding: 8px 16px;  
       
     /* } */
 /* } */
 
 /* @media (max-width: 480px) { */
     /* .p1 .centered-text { */
-        /* font-size: 0.9rem; Adjust font size for very small screens */
-        /* padding: 6px 12px; Adjust padding for very small screens */
+        /* font-size: 0.9rem;
+        /* padding: 6px 12px; 
         /* color:darkblue; */
     /* } */
 /* } */
@@ -840,7 +853,7 @@ input, textarea {
     z-index: -1;
     transform: translate(-50%, -50%);
     object-fit: cover;
-    pointer-events: none; /* Ensure the video doesn't interfere with user interactions */
+    pointer-events: none; 
 }
 .footer {
     width: 100%;
