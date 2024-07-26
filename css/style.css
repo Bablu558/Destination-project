@@ -19,6 +19,9 @@
     left: 50%; /* Center it horizontally */
    /* transform: translateX(-50%); /* Adjust the position 
 }*/
+
+
+/*for loader*/
 .loader_bg{
     position: fixed;
     z-index: 999999;
